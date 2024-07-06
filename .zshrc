@@ -9,7 +9,9 @@ fi
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/bin/java
+export EDITOR="nvim"
+export PATH="/home/egor/.cargo/bin:$PATH"
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/bin/java"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -88,25 +90,29 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # User configuration
 
-#my aliases 
 
-# HACK: my git aliases
+# NOTE: my git aliases
 alias gs="git status"
 alias gsshort="git status --short"
 alias gcm="git commit -m"
 alias gpsuo="git push --set-upstream origin"
+alias gpsussh="git push --set-upstream"
 alias glon="git log --oneline"
 alias gaall="git add *"
 alias gpush="git push"
 
-# HACK: my aliases to change .zshrc
+# NOTE: my aliases to change .zshrc
 alias open_zsh="nvim ~/.zshrc"
 alias source_zsh="source ~/.zshrc"
 
-# HACK: my exa aliases 
-alias ltl="exa --tree --level"
+# NOTE: my exa aliases 
+alias ltl="exa --tree --icons --level"
 alias l="exa"
 alias la="exa -a"
+
+# NOTE: my nvim aliases
+alias vim="nvim"
+alias vi="nvim"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
