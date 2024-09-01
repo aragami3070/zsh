@@ -2,4 +2,10 @@
 .*
 *.*
 !.zshrc
+!realtek-r8125-dkms
+!.oh-my-zsh
+!.gitconfig
+!.fonts_install
+!.p10k.zsh
+!.zshrc
 !.gitignore
