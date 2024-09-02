@@ -105,10 +105,10 @@ alias gpush="git push"
 alias open_zsh="nvim ~/.zshrc"
 alias source_zsh="source ~/.zshrc"
 
-# NOTE: my exa aliases 
-alias ltl="exa --tree --icons --level"
-alias l="exa"
-alias la="exa -a"
+# NOTE: my eza aliases 
+alias ltl="eza --tree --hyperlink --icons=always --level"
+alias lta="eza -a --tree --hyperlink --icons=always --level"
+alias la="eza -a"
 
 # NOTE: my nvim aliases
 alias vim="nvim"
