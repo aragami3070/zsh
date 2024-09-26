@@ -10,7 +10,7 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="nvim"
-export PATH="/home/egor/.cargo/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/bin/java"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
