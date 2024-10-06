@@ -11,7 +11,9 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="nvim"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.cargo/env:$PATH"
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/bin/java"
+export PATH="/usr/local/share/npm/bin:$PATH"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -104,6 +106,10 @@ alias gpush="git push"
 # NOTE: my aliases to change .zshrc
 alias open_zsh="nvim ~/.zshrc"
 alias source_zsh="source ~/.zshrc"
+
+# NOTE: my aliases to start/finish venv
+alias startVenv="source ~/.venv/bin/activate"
+alias finishVenv="deactivate"
 
 # NOTE: my eza aliases 
 alias ltl="eza --tree --hyperlink --icons=always --level"
