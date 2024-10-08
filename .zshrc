@@ -102,6 +102,8 @@ alias gpsussh="git push --set-upstream"
 alias glon="git log --oneline"
 alias gaall="git add *"
 alias gpush="git push"
+alias gpull="git pull"
+alias gpullrebori="git pull --rebase origin"
 
 # NOTE: my aliases to change .zshrc
 alias open_zsh="nvim ~/.zshrc"
