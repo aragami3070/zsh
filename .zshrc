@@ -121,6 +121,14 @@ alias la="eza -a"
 # NOTE: my nvim aliases
 alias vim="nvim"
 alias vi="nvim"
+
+# NOTE: my dotnet aliases
+alias dn='dotnet new'
+alias dr='dotnet run'
+alias ds='dotnet sln'
+alias da='dotnet add'
+alias db='dotnet build'
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
