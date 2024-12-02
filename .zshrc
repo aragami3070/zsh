@@ -105,6 +105,7 @@ alias gpush="git push"
 alias gpull="git pull"
 alias gpullrebori="git pull --rebase origin"
 alias grao="git remote add origin"
+alias gcheck="git checkout"
 
 # NOTE: my aliases to change .zshrc
 alias open_zsh="nvim ~/.zshrc"
