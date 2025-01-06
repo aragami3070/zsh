@@ -137,6 +137,9 @@ alias ds='dotnet sln'
 alias da='dotnet add'
 alias db='dotnet build'
 
+# NOTE: change terminal-emulator
+alias changeTerminal="sudo update-alternatives --config x-terminal-emulator"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
