@@ -137,6 +137,9 @@ alias ds='dotnet sln'
 alias da='dotnet add'
 alias db='dotnet build'
 
+# NOTE: Connet to wifi
+alias wifi="nmcli device wifi connect"
+
 # NOTE: change terminal-emulator
 alias changeTerminal="sudo update-alternatives --config x-terminal-emulator"
 
