@@ -1,3 +1,5 @@
 [user]
 	name = aragami3070
 	email = smirnov17612@gmail.com
+[branch]
+	sort = -committerdate
