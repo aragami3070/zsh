@@ -90,6 +90,13 @@ alias dockDown="docker-compose down"
 alias dockStart="docker start"
 alias dockStop="docker stop"
 
+# NOTE: my rm hyprshots alias
+alias rmHyprshots="
+cd
+rm *_hyprshot.png
+cd -
+"
+
 # NOTE: Connet to wifi
 alias wifi="nmcli device wifi connect"
 
