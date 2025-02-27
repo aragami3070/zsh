@@ -84,6 +84,12 @@ alias ds='dotnet sln'
 alias da='dotnet add'
 alias db='dotnet build'
 
+# NOTE: my docker aliases
+alias dockUpNN="docker-compose up --no-start"
+alias dockDown="docker-compose down"
+alias dockStart="docker start"
+alias dockStop="docker stop"
+
 # NOTE: Connet to wifi
 alias wifi="nmcli device wifi connect"
 
