@@ -90,6 +90,9 @@ alias dockDown="docker-compose down"
 alias dockStart="docker start"
 alias dockStop="docker stop"
 
+# NOTE: my pkill postgres alias
+alias spkillPG="sudo pkill -u postgres"
+
 # NOTE: my rm hyprshots alias
 alias rmHyprshots="
 cd
