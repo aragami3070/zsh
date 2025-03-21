@@ -85,10 +85,10 @@ alias da='dotnet add'
 alias db='dotnet build'
 
 # NOTE: my docker aliases
-alias dockUpNN="docker-compose up --no-start"
-alias dockDown="docker-compose down"
-alias dockStart="docker start"
-alias dockStop="docker stop"
+alias dockUpNN="sudo docker-compose up --no-start"
+alias dockDown="sudo docker-compose down"
+alias dockStart="sudo docker start"
+alias dockStop="sudo docker stop"
 
 # NOTE: my pkill postgres alias
 alias spkillPG="sudo pkill -u postgres"
