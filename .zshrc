@@ -15,7 +15,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="nvim"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.cargo/env:$PATH"
-export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/bin/java"
+export JAVA_HOME="/usr/lib/jvm/java-21-openjdk-amd64/bin/java"
 export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH="$PATH:$HOME/.dotnet/tools"
 
