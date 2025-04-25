@@ -102,10 +102,14 @@ cd -
 "
 
 # NOTE: Connet to wifi
-alias wifi="nmcli device wifi connect"
+alias wifi="nmcli device wifi"
 
 # NOTE: change terminal-emulator
 alias changeTerminal="sudo update-alternatives --config x-terminal-emulator"
+
+# NOTE: for zoxide
+eval "$(zoxide init zsh)"
+alias cdz="z"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
