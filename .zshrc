@@ -104,6 +104,9 @@ cd -
 # NOTE: Connet to wifi
 alias wifi="nmcli device wifi"
 
+# NOTE: Find pid
+alias findPID="ps ax | grep"
+
 # NOTE: change terminal-emulator
 alias changeTerminal="sudo update-alternatives --config x-terminal-emulator"
 
