@@ -81,6 +81,7 @@ alias vi="nvim"
 # NOTE: my dotnet aliases
 alias dn='dotnet new'
 alias dr='dotnet run'
+alias dw='dotnet watch run'
 alias ds='dotnet sln'
 alias da='dotnet add'
 alias db='dotnet build'
