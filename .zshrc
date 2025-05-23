@@ -15,7 +15,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="nvim"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.cargo/env:$PATH"
-export JAVA_HOME="/usr/lib/jvm/java-21-openjdk-amd64/bin/java"
+export JAVA_HOME="/usr/lib/jvm/java-24-openjdk"
 export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH="$PATH:$HOME/.dotnet/tools"
 
@@ -33,6 +33,7 @@ plugins=(
     git
     zsh-syntax-highlighting
     zsh-autosuggestions
+	zsh-vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -41,6 +42,9 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # User configuration
 
+ZVM_VI_INSERT_ESCAPE_BINDKEY=":;"
+# Change to Zsh's default readkey engine
+ZVM_READKEY_ENGINE=$ZVM_READKEY_ENGINE_ZLE
 
 # NOTE: my git aliases
 alias gs="git status"
