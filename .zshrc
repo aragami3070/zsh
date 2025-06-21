@@ -17,6 +17,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.cargo/env:$PATH"
 export JAVA_HOME="/usr/lib/jvm/java-24-openjdk"
 export PATH="/usr/local/share/npm/bin:$PATH"
+export PATH="$HOME/.bin:$PATH"
 export PATH="$PATH:$HOME/.dotnet/tools"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
