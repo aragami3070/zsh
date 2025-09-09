@@ -3,5 +3,5 @@ root = false
 indent_style = tab
 indent_size = 4
 
-[*.{html,css,vue,js,jsx,ts,typ,md,json,tex,csproj,bib,yaml,toml}]
+[*.{html,css,scss,vue,js,jsx,ts,tsx,typ,md,json,tex,csproj,bib,yaml,toml}]
 indent_size = 2
