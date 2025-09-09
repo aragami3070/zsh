@@ -80,7 +80,6 @@ alias lta="eza -a --tree --hyperlink --icons=always --level"
 alias la="eza -a"
 
 # NOTE: my nvim aliases
-alias vim="nvim"
 alias vi="nvim"
 
 # NOTE: my dotnet aliases
