@@ -1,6 +1,11 @@
+# NOTE: open all terminals with tmux
+if [[ -z $(tmux ls 2>"/dev/null") ]]; then
+	tmux new-session -s "main"
+else
+	tmux 2>"/dev/null"
+fi
 # NOTE: open new window with fastfetch
-tmux
-fastfetch
+# fastfetch
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -74,7 +79,7 @@ alias source_zsh="source ~/.zshrc"
 alias startVenv="source ~/.venv/bin/activate"
 alias finishVenv="deactivate"
 
-# NOTE: my eza aliases 
+# NOTE: my eza aliases
 alias ltl="eza --tree --hyperlink --icons=always --level"
 alias lta="eza -a --tree --hyperlink --icons=always --level"
 alias la="eza -a"
