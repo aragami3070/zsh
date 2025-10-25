@@ -24,6 +24,7 @@ export JAVA_HOME="/usr/lib/jvm/java-24-openjdk"
 export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH="$HOME/.bin:$PATH"
 export PATH="$PATH:$HOME/.dotnet/tools"
+export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
